@@ -1,0 +1,43 @@
+body{
+	font-family:  cursive;
+	background-color:black;
+	color:white;
+}
+
+a{
+	color:#BBB8C2 !important;
+	font-family: 'Lobster', cursive;
+}
+
+a:hover{
+	color:#E9E9EB!important;
+}
+.carousel-inner{
+	width:100%;
+	height:50%;
+}
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  /*.card-columns{
+  	color:white;
+  	
+  }*/
+  div.cb{
+  	color:black;
+  	border:2px solid black;
+  	/*background-color: #DC3E8E;*/
+  	background-image: linear-gradient(to bottom right,red, #DC3E8E);
+  	border-radius: 5px 20px 5px;
+  	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF
+  }
+
+ div.footer1{
+ 		background-color: #414088;
+ }
+ div.footer2{
+ 	background-color: rgba(65, 64, 136,0.6);
+ 	color:black;
+ 	
+ }
