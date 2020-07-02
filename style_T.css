@@ -1,0 +1,23 @@
+body{
+    background: #0099ff;
+    background: linear-gradient(to right, #00b8e6, #93e8ee);
+    font-family: 'Lobster', cursive;
+    
+}
+pre{
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-size: medium;
+}
+.carousel-inner{
+	width:auto;
+    height:auto;
+}
+.carousel-item img{
+    width: auto;
+    height: 560px;
+    max-height: 560px;
+    margin: auto; 
+    display: block;
+}
+
