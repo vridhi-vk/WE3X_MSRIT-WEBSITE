@@ -12,6 +12,23 @@ h1{
     padding:20px;  
     font-size:65px;
 }
+
+.login-container{
+    text-align: end;
+    color: black;
+}
+li.nav-item{
+    width:100%;
+    padding: 10px 50px;
+}
+.btn.btn-primary.dropdown-toggle{
+    background-color: rgb(58, 54, 54);
+    border: rgb(58, 54, 54);
+}
+.dropdown-menu{
+    background-color: rgb(231, 229, 229);
+    opacity:0.9;
+}
 li a{
     display: block;
 }
@@ -22,14 +39,11 @@ li a:hover{
 li.nav-item{
     width:100%;
     padding: 10px 50px 10px 0px;
-    
-    
 }
 a.nav-link{
     margin:auto;
     /* border:2px solid;
     border-radius:8px; */
-    
 }
 a.nav-link:hover{
 
@@ -49,4 +63,4 @@ a.nav-link:hover{
 	height: 100%;
     margin:auto;
     padding:40px;
- }
+  }

@@ -16,6 +16,12 @@
     </head>
     <body>
         <h1>Ritblog~</h1>
+
+        <div class="login-container">
+        <a href="login.html" style="color: black;" class="w3-btn w3-black">Login</a>
+        <a href="register.html" style="color: black;" class="w3-btn w3-black">Register</a>
+        </div>
+
         <!--navbar-->
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,8 +45,19 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">People</a>
               </li>
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                More
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Profile</a>
+                  <a class="dropdown-item" href="#">contributions</a>
+                  <a class="dropdown-item" href="#">Settings</a>
+                  <a class="dropdown-item" href="#">Logout</a>
+                </div>
+              </div>
             </ul>
-          </nav>
+            </nav>
           <br>
 
           <!--Carousel slide-->
