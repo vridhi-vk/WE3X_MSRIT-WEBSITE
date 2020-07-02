@@ -4,7 +4,7 @@ html{
     height: 100%;
 }
 body{
-    background: linear-gradient(to right,rgb(214, 62, 62),rgb(176, 124, 192));
+    background: linear-gradient(to bottom,rgb(214, 62, 62),rgb(176, 124, 192));
     font-family: 'MuseoModerno', cursive;
 }
 h1{    
@@ -12,9 +12,16 @@ h1{
     padding:20px;  
     font-size:65px;
 }
+li a{
+    display: block;
+}
+li a:hover{
+    background-color:rgb(60, 21, 63);
+}
+
 li.nav-item{
     width:100%;
-    padding: 10px 50px;
+    padding: 10px 50px 10px 0px;
     
     
 }
@@ -22,7 +29,7 @@ a.nav-link{
     margin:auto;
     /* border:2px solid;
     border-radius:8px; */
-    padding: 5% 5%;
+    
 }
 a.nav-link:hover{
 
@@ -42,8 +49,4 @@ a.nav-link:hover{
 	height: 100%;
     margin:auto;
     padding:40px;
-<<<<<<< HEAD
  }
-=======
-
->>>>>>> 7b77f2434ea3a20efe8357bd1484b0f431c0e872
