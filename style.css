@@ -1,11 +1,14 @@
 body{
     background: #0099ff;
-    background: linear-gradient(to right,rgb(136, 90, 150),rgb(214, 62, 62));
+    background: linear-gradient(to left,rgb(136, 90, 150),rgb(214, 62, 62));
     font-family: 'MuseoModerno', cursive;
 }
 h1{
     margin-left: 80px;
     font-size:65px;
+}
+h4{
+    margin-left: 80px;
 }
 pre{
     text-align: center;
