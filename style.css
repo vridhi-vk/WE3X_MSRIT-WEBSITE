@@ -1,0 +1,24 @@
+body{
+    background: #0099ff;
+    background: linear-gradient(to right,rgb(136, 90, 150),rgb(214, 62, 62));
+    font-family: 'MuseoModerno', cursive;
+}
+h1{
+    margin-left: 80px;
+    font-size:65px;
+}
+pre{
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color: aliceblue;
+}
+.carousel-inner{
+	width:100%;
+	height:50%;
+}
+ .carousel-inner  img {
+    width: 100%;
+	height: 100%;
+    margin:auto;
+    padding:40px;
+
