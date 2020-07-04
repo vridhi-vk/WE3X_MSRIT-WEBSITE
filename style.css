@@ -4,12 +4,20 @@ html{
     height: 100%;
 }
 body{
-    background: linear-gradient(to bottom,rgb(214, 62, 62),rgb(176, 124, 192));
-    font-family: 'MuseoModerno', cursive;
+    background: linear-gradient(to right,#bd4444,#1C053A);
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+
 }
-h1{    
-    display:block;
-    padding:20px;  
+#header{
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+h1{      
+    font-family: 'Lobster','cursive';
     font-size:65px;
 }
 
@@ -49,10 +57,8 @@ a.nav-link:hover{
 
     border-color:goldenrod;
 }
-.pre{
-    text-align: center;
-    font-family: 'Prompt', sans-serif;
-    color: aliceblue;
+.big-login{
+    background-color:rgba(0, 185, 255,0.3);
 }
 .carousel-inner{
 	width:100%;
@@ -63,4 +69,14 @@ a.nav-link:hover{
 	height: 100%;
     margin:auto;
     padding:40px;
+  }
+.pre{
+    margin-top:40px;
+    text-align: center;
+    font-family: 'Lobster','cursive';
+    color: aliceblue;
+}
+
+  footer{
+    font-family: 'Lobster','cursive';
   }
