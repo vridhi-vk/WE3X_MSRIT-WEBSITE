@@ -32,9 +32,9 @@ body{
   }
 
   .card {
-    background: rgb(247, 247, 247);
+    background: white;
     text-decoration: none;
-    color: #444;
+    color: rgba(68, 68, 68, 0.979);
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
@@ -72,7 +72,7 @@ body{
   .card span {
     font-size: 12px;
     font-weight: bold;
-    color: #999;
+    color: rgba(54, 47, 47, 0.445);
     text-transform: uppercase;
     letter-spacing: .05em;
     margin: 2em 0 0 0;
