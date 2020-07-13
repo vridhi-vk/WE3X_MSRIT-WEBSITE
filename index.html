@@ -34,7 +34,7 @@
  
 </head>
     <body>
-      <header id="header">
+      <!-- <header id="header">
         <h1>Rit</h1><h1 style="color:white">Blog~</h1>
           <div class="container col-12"></div>
           <div class="container text-center" id="login">
@@ -44,7 +44,7 @@
       <br>
        
 
-        <!--Sorry,tanmayee I made changes :/-->
+        Sorry,tanmayee I made changes :/-->
         <!-- <div class="login-container">
         <a href="login.html" style="color: black;" class="w3-btn w3-black">Login</a>
         <a href="register.html" style="color: black;" class="w3-btn w3-black">Register</a>
@@ -52,7 +52,7 @@
 
         <!--login and register-->
   
-  
+<!--   
        <div class="modal fade login" id="loginModal">
             <div class="modal-dialog login animated">
                 <div class="modal-content">
@@ -121,11 +121,87 @@
       $(document).ready(function(){
           openLoginModal();
       });
-  </script>
-  
+  </script> -->
 
         <!--navbar-->
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <nav class="nav-main sticky">
+          <ul class="nav-center"  id="myTopnav">
+            <li class="first-item">
+              <a href="#">
+                <div id="header">
+                  <h2 style="color:black">Rit</h2><h2>Blog</h2>
+                </div>
+              </a>
+            </li> 
+            <li>
+              <a href="#">
+                <img class="icon" src="./icons/svg/001-homepage.svg">
+                <div>
+                  <span>
+                  Home
+                </span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="people.html">
+                <img class="icon" src="./icons/svg/002-article.svg">
+                <div>
+                  <span>
+                    Blogs
+                  </span>
+                </div>
+              </a>
+            </li>
+            
+            <li>
+              <a href="#">
+                <img class="icon" src="./icons/svg/003-connection.svg">
+                <div>
+                  <span>
+                    Clubs
+                  </span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="icon" src="./icons/svg/calendar.svg">
+                <div>
+                  <span>
+                  Events
+                </span>
+                </div>
+              </a>
+            </li>
+            <li class="last-item">
+              <a href="#">
+                <img class="icon" src="./icons/svg/006-settings.svg">
+                <div>
+                  Settings
+                </div>
+              </a>
+            </li>
+            <li class="i" >
+              <a href="javascript:void(0);"  onclick="myFunction()">
+                <img class="icon" src="./icons/svg/007-user.svg">
+               </a>
+            </li>
+            
+          </ul>
+           
+        </nav>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "nav-center") {
+              x.className += " responsive";
+            } else {
+              x.className = "nav-center";
+            }
+          }
+          </script>
+        <!-- <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -133,6 +209,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
               <li class="nav-item">
+                <img class="icon" src="./icons/svg/002-racism.svg">
                 <a class="nav-link" href="#">Home</a>
               </li>
               <li class="nav-item">
@@ -159,51 +236,48 @@
               </li>  
             </ul>
             </nav>
-          <br>
+          <br> -->
+          
 
-          <!--Carousel slide-->
-      	<div id="demo" class="carousel slide" data-ride="carousel">
+          <!--image-->
+          <div id="slidera" class="layer_wrapper  selected_stat" style="min-height: initial;">
+                                
+            <div id="stat_img" class=" stat_has_img" style="background: url(&quot;https://www.crackerandrush.com/wp-content/uploads/2016/10/cracker-and-rush-case-study-ramaiah-featured-image.jpg&quot;) center top / cover no-repeat; min-height: 477px; height: 474px;opacity: 0.5;">
+            
+              <div class="stat_content stat_content_center" style="opacity:1.0">
+                  <div class="stat_content_inner">
+                        <div class="center">
+                            <p style="text-align: center">&nbsp;</p><p>&nbsp;</p><h2 style="text-align: center"><span style="font-size: 36pt">RIT - Blog Site</span></h2>
+                            <h2 class="img-heading" style="text-align: center"><span style="font-size: 36pt">Find stories , make better choices</span></h2>
+                            <hr style="width:50vw; height:3px;">
+                           <div class="cta_buttons">
+                        </div> 
+                        </div>
+                    </div>
+              </div>       
+               <!-- <img id="statimg_99" class="stat_bg_img" src="https://getmyuni.azureedge.net/college-image/big/ms-ramaiah-college-of-arts-science-and-commerce-msrcasc-bangalore.jpg" alt="AI" scale="0" style="opacity: 0;">
+                 -->
+            </div>
+          </div>
+         
+<!-- <div class="container text-center pre">
+   A go-to website for the students of Ramaiah,By the students of Ramaiah.
+</div> -->
 
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-        
-        <!-- The slideshow -->
-        <div class="carousel-inner" >
-          <div class="carousel-item active">
-            <img src="https://getmyuni.azureedge.net/college-image/big/ms-ramaiah-college-of-arts-science-and-commerce-msrcasc-bangalore.jpg" class=rounded alt="MSRIT" width="1000" height="500">
-          </div>
-          <div class="carousel-item">
-            <img src="https://www.youradmissionguru.com/wp-content/uploads/2020/04/Screen-Shot-2020-04-28-at-10.53.32-AM.png" class=rounded alt="Collge front view" width="1100" height="500">
-          </div>
-          <div class="carousel-item">
-            <img src="https://msrit-bucket.s3-us-west-2.amazonaws.com/Images/Support/DECA/Full-Size/deca6.jpg" class=rounded alt="Udhbav" width="1100" height="500">
-          </div>
-        </div>
-        
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div> 
+<footer id="sticky-footer" class=" bg-dark text-white-50">
+  <div class="container text-center">
+    <div class="container col-12">. . . . . . . . . . . . . . . . . .</div>
+    Made with <i class="material-icons" style="color:rgb(161, 72, 117)">favorite</i> by We3x.
+    <br>
+    <div><small>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>, <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a>,  <a href="https://www.flaticon.com/authors/inipagistudio" title="inipagistudio">inipagistudio</a> ,
+    <a href="https://www.flaticon.com/authors/srip" title="srip">Srip</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></a></small>
+    </div>
+      <hr>
+    <small>Copyright &copy; team WE3X</small>
+  </div>
+</footer>
 
-      <div class="container text-center pre">
-         A go-to website for the students of Ramaiah,By the students of Ramaiah.
-      </div>
-      
-      <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-        <div class="container text-center">
-          Made with <i class="material-icons" style="color:rgb(161, 72, 117)">favorite</i> by We3x.<br>
-          <small>Copyright &copy; team WE3X</small>
-        </div>
-      </footer>
-    </body>
+          
   
     </body>
 </html>
