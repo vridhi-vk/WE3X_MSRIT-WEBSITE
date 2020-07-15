@@ -1,0 +1,50 @@
+h1{
+  font-family: 'Montserrat', sans-serif;
+ font-size: 3rem;
+ line-height: 1.5;
+ text-align: center;
+ padding-bottom: 3%;
+ padding-top: 3%;
+ color: #654062;
+}
+
+h2{
+  padding-top: 3%;
+}
+
+#events{
+  background-color: #b83b5e;
+  color: #fff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+ font-size: 2rem;
+ line-height: 1.5;
+}
+
+
+.container{
+  background-color: blue;
+  margin: 5%;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+}
+.events-image{
+  margin: 20px;
+  border-radius: 80%;
+}
+
+.club-container{
+  padding-left: 5%;
+}
+
+.clubs{
+  padding-top: 5%;
+}
+
+.clubs-images{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
