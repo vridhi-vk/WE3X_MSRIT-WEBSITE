@@ -1,7 +1,27 @@
 body{
-    background: linear-gradient(to right,#bd4444,#1C053A);
+    background: linear-gradient(to right,#bd4444,#1c053a);
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
+}
+
+.events-image{
+  width:25rem;
+  height:15rem;
+  margin: 20px;
+ 
+}
+.events-text{
+  color:white;
+  text-shadow:  0 0 3px #FF0000;
+  text-decoration: underline;
+}
+#events{
+  background-color: rgba(28, 5, 58,0.4);
+  font-family: 'Lato', sans-serif;  
+  color: #fff !important;
+  text-align: center;
+ font-size: 2rem;
+ line-height: 1.5;
 }
 
 .band {

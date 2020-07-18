@@ -2,6 +2,10 @@
 body,html{
   height: 100vh;
   width:100vw;
+
+}
+body{
+  background: linear-gradient(to right,#bd4444,#1C053A);
 }
 h1{
   font-family: 'Montserrat', sans-serif;
@@ -17,14 +21,7 @@ h2{
   padding-top: 3%;
 }
 
-#events{
-  background-color: #b83b5e;
-  color: #fff;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
- font-size: 2rem;
- line-height: 1.5;
-}
+
 
 @media only screen and (min-width: 768px)
 {
@@ -41,11 +38,6 @@ h2{
 /* .carousel-item {
     padding: 5% 15%;
 } */
-.events-image{
-  width:10rem;
-  margin: 20px;
-  border-radius: 80%;
-}
 
 
 .cta-100 {
