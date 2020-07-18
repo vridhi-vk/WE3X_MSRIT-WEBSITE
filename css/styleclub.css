@@ -1,3 +1,8 @@
+
+body,html{
+  height: 100vh;
+  width:100vw;
+}
 h1{
   font-family: 'Montserrat', sans-serif;
  font-size: 3rem;
@@ -21,15 +26,23 @@ h2{
  line-height: 1.5;
 }
 
+@media only screen and (min-width: 768px)
+{
+.container {
+    max-width: 95%;
+}
+}
 
+/* 
 .container{
   margin: 5%;
-}
+} */
 
-.carousel-item {
+/* .carousel-item {
     padding: 5% 15%;
-}
+} */
 .events-image{
+  width:10rem;
   margin: 20px;
   border-radius: 80%;
 }
@@ -37,8 +50,8 @@ h2{
 
 .cta-100 {
   margin-top: 100px;
-  padding-left: 8%;
   padding-top: 7%;
+  height:50vh;
 }
 .col-md-4{
     padding-bottom:20px;
@@ -53,9 +66,9 @@ h2{
 }
 figure img{width:300px;}
 
-#blogCarousel {
+/* #blogCarousel {
   padding-bottom: 100px;
-}
+} */
 
 
 .blog .carousel-indicators {
