@@ -2,10 +2,9 @@
 body,html{
   height: 100vh;
   width:100vw;
-
-}
-body{
-  background: linear-gradient(to right,#bd4444,#1C053A);
+  margin:0px;
+  background: linear-gradient(to right,#bd4444,#1c053a);
+  color:white;
 }
 h1{
   font-family: 'Montserrat', sans-serif;
@@ -19,6 +18,15 @@ h1{
 
 h2{
   padding-top: 3%;
+}
+h2.discover{
+  color:white;
+  vertical-align: center;
+  text-shadow:  0 0 3px #FF0000;
+  border-bottom:2px solid white;
+  border-radius:2px ;
+  box-shadow: 5px 10px #1c053a;
+
 }
 
 
@@ -40,11 +48,12 @@ h2{
 } */
 
 
-.cta-100 {
+
+/* .cta-100 {
   margin-top: 100px;
   padding-top: 7%;
   height:50vh;
-}
+} */
 .col-md-4{
     padding-bottom:20px;
 }
@@ -63,11 +72,11 @@ figure img{width:300px;}
 } */
 
 
-.blog .carousel-indicators {
+/* .blog .carousel-indicators {
   left: 0;
   top: -50px;
   height: 50%;
-}
+} */
 
 
 /* The colour of the indicators */
