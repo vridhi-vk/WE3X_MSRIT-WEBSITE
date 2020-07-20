@@ -1,7 +1,6 @@
 body,html{
     background: linear-gradient(to right,#bd4444,#1c053a);
     font-family: 'Lato', sans-serif;
-    font-size: 2rem;
 }
 
 .events-image{
@@ -102,3 +101,4 @@ body,html{
     background-size: cover;
     background-position: center center;
   }
+  

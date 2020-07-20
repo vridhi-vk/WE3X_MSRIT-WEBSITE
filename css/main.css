@@ -1947,9 +1947,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     -o-transform: scale(1.3);
     transform: scale(1.3); }
   .single-post-item:hover h3 a {
-    color: #5611af; }
+    color: #eaeaf1; }
   .single-post-item:hover .primary-btn {
-    background: #5611af;
+    background: #b30303;
     color: #fff; }
 
 .whole-wrap {
@@ -2222,7 +2222,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     .category-widget ul li:hover p,
     .category-widget ul li:hover p:after,
     .category-widget ul li:hover span {
-      color: #5611af; }
+      color: #fcfcfd; }
 
 .popular-posts-widget .single-popular-post .popular-details {
   margin-left: 20px; }
@@ -2237,7 +2237,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 12px;
     margin-top: 10px; }
 .popular-posts-widget .single-popular-post:hover h4 {
-  color: #5611af; }
+  color: #f9f8fa; }
 @media (max-width: 960px) {
   .popular-posts-widget .single-popular-post {
     margin-bottom: 20px; } }
