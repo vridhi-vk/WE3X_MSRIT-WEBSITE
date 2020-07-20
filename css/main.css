@@ -17,38 +17,39 @@
 
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
-  color: #777777;
+  color: #d6d6c2;
   font-weight: 300; }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #777777;
+  color: #d6d6c2;
   opacity: 1;
   font-weight: 300; }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #777777;
+  color: #d6d6c2;
   opacity: 1;
   font-weight: 300; }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #777777;
+  color: #d6d6c2;
   font-weight: 300; }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: #777777;
+  color: #d6d6c2;
   font-weight: 300; }
 
 body {
-  color: #777777;
+  color: #dfdbdb;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  position: relative; }
+  position: relative;
+  background: linear-gradient(to right,#052f5c,#10022b);  }
 
 ol,
 ul {
@@ -112,7 +113,7 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", serif;
-  color: #000;
+  color:#ccccb3;
   line-height: 1.2em;
   margin-bottom: 0;
   font-weight: 700; }
@@ -591,12 +592,12 @@ th {
   color: #008000; }
 
 .primary-btn {
-  background: #bd4444;
+  background: #fff;
   line-height: 38px;
   padding: 0 30px;
   border-radius: 25px;
   border: 1px solid #e9e9e9;
-  color: #fff;
+  color: #000;
   display: inline-block;
   font-size: 12px;
   font-weight: 500;
@@ -628,9 +629,10 @@ th {
     .primary-btn.color span {
       color: #fff; }
     .primary-btn.color:hover {
-      background: #f9f9ff;
-      color: #000;
-      border: 1px solid #e9e9e9; }
+      background:#000 ;
+      color: #f9f9ff;
+      border: 1px solid #e9e9e9;
+       }
       .primary-btn.color:hover span {
         color: #8050fa; }
 
@@ -723,7 +725,7 @@ h6 {
 .typography h4,
 .typography h5,
 .typography h6 {
-  color: #777777; }
+  color: #d6d6c2; }
 
 .button-area {
   background: #fff; }
@@ -996,7 +998,7 @@ h6 {
     line-height: 1.82em !important; }
     .ordered-list li span {
       font-weight: 300;
-      color: #777777; }
+      color: #d6d6c2; }
 
 .ordered-list-alpha li {
   margin-left: 30px;
@@ -1006,7 +1008,7 @@ h6 {
   line-height: 1.82em !important; }
   .ordered-list-alpha li span {
     font-weight: 300;
-    color: #777777; }
+    color: #d6d6c2; }
 
 .ordered-list-roman li {
   margin-left: 30px;
@@ -1016,7 +1018,7 @@ h6 {
   line-height: 1.82em !important; }
   .ordered-list-roman li span {
     font-weight: 300;
-    color: #777777; }
+    color: #d6d6c2; }
 
 .single-input {
   display: block;
@@ -1920,7 +1922,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .single-post-item h3 {
     margin: 25px 0px 15px; }
     .single-post-item h3 a {
-      color: #000; }
+      color: #fff; }
   .single-post-item .post-box {
     width: 100%;
     position: absolute;
@@ -1947,10 +1949,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     -o-transform: scale(1.3);
     transform: scale(1.3); }
   .single-post-item:hover h3 a {
-    color: #eaeaf1; }
+    color: #fff;
+    font-size: 27px; }
   .single-post-item:hover .primary-btn {
-    background: #b30303;
-    color: #fff; }
+    background:#000 ;
+      color: #f9f9ff; }
 
 .whole-wrap {
   background-color: #fff; }
@@ -2083,11 +2086,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     .single-post .social-wrap {
       margin-top: 10px; } }
   .single-post .comment-wrap ul li a {
-    color: #777777; }
+    color: #d6d6c2; }
   .single-post .social-wrap ul {
     text-align: right; }
     .single-post .social-wrap ul li a i {
-      color: #777777; }
+      color: #d6d6c2; }
       .single-post .social-wrap ul li a i:hover {
         color: #000; }
     @media (max-width: 768px) {
@@ -2193,7 +2196,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease 0s; }
   .category-widget ul li p {
     position: relative;
-    color: #777777;
+    color: #ccccb3;
     margin: 0;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -2212,7 +2215,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         .category-widget ul li p:after {
           min-width: 160px; } }
   .category-widget ul li span {
-    color: #777777;
+    color: #d6d6c2;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -2334,12 +2337,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   margin-bottom: 15px; }
 .main_blog_details .blockquote {
-  background: #fff;
+  background: rgb(146, 144, 144);
   padding: 30px;
   box-shadow: -20.84px 21.58px 30px 0px rgba(176, 176, 176, 0.1);
   margin: 35px 0px; }
   .main_blog_details .blockquote p {
-    background: #f9f9ff;
+    background: rgb(146, 144, 144);
     margin-bottom: 0px;
     border-left: 2px solid #000;
     padding: 30px;
@@ -2356,7 +2359,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       display: block; } }
   .main_blog_details .news_d_footer a {
     font-size: 14px;
-    color: #777777; }
+    color: #d6d6c2; }
     @media (max-width: 380px) {
       .main_blog_details .news_d_footer a .lnr-bubble {
         margin-left: 30px; } }
@@ -2395,7 +2398,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   box-shadow: -20.84px 21.58px 30px 0px rgba(176, 176, 176, 0.1);
   font-size: 14px;
   line-height: 24px;
-  color: #777;
+  color: rgb(206, 205, 205);
   font-style: italic; }
 .single-post-area .arrow {
   position: absolute; }
@@ -2499,7 +2502,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #cccccc;
     margin-bottom: 13px; }
   .comments-area .comment {
-    color: #777777;
+    color: #d6d6c2;
     margin-bottom: 0px; }
   .comments-area .btn-reply {
     background-color: #f9f9ff;
@@ -2550,7 +2553,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-radius: 0px;
     width: 100%;
     font-size: 14px;
-    color: #777777; }
+    color: #d6d6c2; }
     .comment-form .form-control:focus {
       box-shadow: none;
       border: 1px solid #eee; }
@@ -2609,7 +2612,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #777777;
+  color: #d6d6c2;
   border: none; }
 
 .blog-pagination .page-link .lnr {
@@ -2643,7 +2646,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       margin-left: 0; } }
 .single-footer-widget p {
   margin-bottom: 0px;
-  color: #777777;
+  color: #d6d6c2;
   max-width: 235px; }
 .single-footer-widget ul li a {
   line-height: 25px;
