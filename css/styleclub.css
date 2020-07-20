@@ -25,7 +25,7 @@ h2.discover{
   text-shadow:  0 0 3px #FF0000;
   border-bottom:2px solid white;
   border-radius:2px ;
-  box-shadow: 5px 10px #1c053a;
+  box-shadow: 5px 10px #482996;
 
 }
 
@@ -106,6 +106,7 @@ figure img{width:300px;}
   text-align: center;
   z-index: 4;
   padding: 20px;
+  height: 30rem;
 }
 
 .item-box-blog-image {
@@ -114,7 +115,7 @@ figure img{width:300px;}
 
 .item-box-blog-image figure img {
   width: 100%;
-  height: auto;
+  height: 15rem;
 }
 
 .item-box-blog-date {
@@ -123,7 +124,7 @@ figure img{width:300px;}
   padding: 4px 20px;
   top: -20px;
   right: 8px;
-  background-color: #41cb52;
+  background-color: #482996 !important;
 }
 
 .item-box-blog-date span {
@@ -135,6 +136,7 @@ figure img{width:300px;}
 
 .item-box-blog-date span.mon {
   font-size: 18px;
+  
 }
 
 .item-box-blog-date span.day {
@@ -167,6 +169,7 @@ figure img{width:300px;}
 .item-box-blog-text {
   max-height: 100px;
   overflow: hidden;
+  font-size: 1.2rem;
 }
 
 .mt-10 {
@@ -180,8 +183,16 @@ figure img{width:300px;}
   padding: 4px 20px;
   float: left;
   margin-top: 10px;
+  background-color: #bd4444 !important;
 }
 
 .btn.bg-blue-ui.white.read:hover {
-  box-shadow: 0px 5px 15px inset #4d5f77;
+  background-color:transparent !important;
+  border-color: #bd4444 ;
+  box-shadow: 0px 5px 15px inset #052f5c ;
 }
+
+/* div a.read{
+
+   !important;
+} */
