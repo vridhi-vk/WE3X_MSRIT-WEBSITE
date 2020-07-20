@@ -1,5 +1,5 @@
 body,html{
-    background: linear-gradient(to right,#bd4444,#1c053a);
+    background: linear-gradient(to right,#052f5c,#10022b);
     font-family: 'Lato', sans-serif;
 }
 
@@ -51,9 +51,9 @@ body,html{
   }
 
   .card {
-    background: white;
+    background: linear-gradient(to right,#052f5c,#10022b);
     text-decoration: none;
-    color: rgba(68, 68, 68, 0.979);
+    color: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
@@ -66,7 +66,8 @@ body,html{
  .card:hover {
     top: -4px;
     box-shadow: 0 4px 5px black;
-  }
+    color:#d6d6c2
+ }
   .card article {
     padding: 20px;
     flex: 1;
@@ -79,7 +80,7 @@ body,html{
   .card h1 {
     font-size: 20px;
     margin: 0;
-    color: #333;
+    color: #fff;
   }
    
   .card p { 
@@ -91,7 +92,7 @@ body,html{
   .card span {
     font-size: 12px;
     font-weight: bold;
-    color: rgba(54, 47, 47, 0.445);
+    color: rgba(231, 228, 228, 0.445);
     text-transform: uppercase;
     letter-spacing: .05em;
     margin: 2em 0 0 0;
