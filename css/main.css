@@ -58,7 +58,24 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 400;
-    line-height: 24px;}
+    line-height: 24px;
+    overflow:visible;}
+
+  section.descp{
+     text-align: left;
+      line-height: 2em;
+      width:88vw;
+      font-family: "cursive";
+      font-size: 20px;
+      font-weight: 400;
+      border-bottom:2px solid white;
+      overflow: visible;
+      margin:0 auto;
+      padding:10%;
+      letter-spacing: 2px;
+    word-spacing: 4px;
+    }
+    
 hr{
   height:2px;border-width:0;color:gray;background-color:gray
 }
@@ -739,6 +756,7 @@ h6 {
 .typography h5,
 .typography h6 {
   color: #d6d6c2; }
+
 
 .button-area {
   background: #fff; }
@@ -1965,7 +1983,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     transform: scale(1.3); }
   .single-post-item:hover h3 a {
     color: #fff;
-    font-size: 27px; }
+    font-size: 1.2rem; }
   .single-post-item:hover .primary-btn {
     background:transparent;
       color: #f9f9ff; }
