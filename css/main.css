@@ -177,6 +177,10 @@ td,
 th {
   border-radius: 0px; }
 
+div.easy-btns{
+    text-align: center;
+}
+
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
